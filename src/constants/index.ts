@@ -58,7 +58,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    url:'#',
+    url:'https://vuongle-portfolio.netlify.app/',
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
