@@ -4,19 +4,6 @@ import {SiMongodb,SiMysql,SiJira,SiIonic} from 'react-icons/si'
 import { TbBrandReactNative } from "react-icons/tb"
 import {motion} from 'framer-motion'
 
-const iconVariants = (duration: number) => ({
-    initial: {y:-10},
-    animate: {
-        y:[10, -10],
-        transition: {
-            duration: duration,
-            ease: "linear",
-            repeat: Infinity,
-            repeatType:'reverse'
-        }
-    }
-})
-
 export default function Technology() {
   return (
     <div className="border-b border-neutral-900 pb-24">
