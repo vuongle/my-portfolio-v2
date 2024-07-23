@@ -24,9 +24,9 @@ export default function Hero() {
                     animate={{x:0, opacity:1}}
                     transition={{duration:0.5, delay: 1}}
                     className="my-2 max-w-xl py-6 font-light tracking-tight">
-                        <p>I specialize in full-stack development with MongoDB/MySQL, Loopback, Nodejs, Angular, Ionic, React/React Native and Flutter frameworks. I also have good experience with AWS, Jenkins, Jira,...</p>
+                        <p>I specialize in full-stack development with Go, Nodejs/Loopback, MongoDB/MySQL, Angular, Ionic, React/React Native and Flutter frameworks. I also have good experience with AWS, Jenkins, Jira,...</p>
                             <p>
-                            I have honed my skills in front-end technologies like React/React Native and Flutter, as well as back-end technologies like Node.js, MySQL/MongoDB and Docker. 
+                            I have honed my skills in front-end technologies like React/React Native and Flutter, as well as back-end technologies like Go, Node.js, MySQL/MongoDB and Docker. 
                             </p>
                             <p>
                             My long-term goal is to be a project manager who can motivate and coach team members as well as contribute to the growth of companies that I work with.

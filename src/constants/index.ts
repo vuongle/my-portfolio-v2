@@ -2,6 +2,9 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project2.jpeg";
 import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.png";
+import projectBlog from "../assets/projects/blog_go_react.png";
+import projectFlutter from "../assets/projects/Flutter.png";
+import projectJenkins from "../assets/projects/jenkins.png";
 
 export const HERO_CONTENT = ``;
 
@@ -57,7 +60,7 @@ export const PROJECTS = [
     technologies: ["Asp.Net", "WebMethod Webservice", "MySQL", "jQuery", "HTML", "CSS", "GitHub"],
   },
   {
-    title: "Portfolio Website",
+    title: "Personal Portfolio Website",
     url:'https://vuongle-portfolio.netlify.app/',
     image: project3,
     description:
@@ -69,8 +72,33 @@ export const PROJECTS = [
     url:'https://gym-react-ts-6qb.pages.dev/',
     image: project4,
     description:
-      "A landing page for learning purpose only.",
+      `A landing page for learning purpose only. I have learned how to build a react app using: Typescript, React, TailwindCSS, Framer Motion, Vite. And how to deploy it on Cloudfare.
+      A part from this, I have also researched React and React Native by making hands-on projects. Please take a look at my Github for more details.`,
     technologies: ["Typescript", "React", "TailwindCSS", "Framer Motion", "Vite", "Cloudfare"],
+  },
+  {
+    title: "Blog App with Go and React",
+    url:'https://github.com/vuongle/Learn_Go',
+    image: projectBlog,
+    description:
+      "I have learned how to build a blog app with Go and React. A part from this, I have also researched Go by making hands-on projects. Please take a look at my Github for more details.",
+    technologies: ["Go", "React", "TailwindCSS", "MySQL"],
+  },
+  {
+    title: "Flutter Learning Projects",
+    url:'https://github.com/vuongle/Learn_Flutter',
+    image: projectFlutter,
+    description:
+      "I have spent time to research Flutter by making hands-on projects. Please take a look at my Github for more details.",
+    technologies: ["Flutter", "Payment Integration", "ChatGPT Intergration", "Map Intergration", "Google/Apple Authentication Intergration", "Clean Architecture/MVVM Architecture"],
+  },
+  {
+    title: "Jenkins CI/CD",
+    url:'https://github.com/vuongle/jenkins-docker-golang',
+    image: projectJenkins,
+    description:
+      "I have spent time to research Jenkins by making hands-on projects. Please take a look at my Github for more details.",
+    technologies: ["Jenkins Pipeline", "Github Webbooks", "Sonar Cloud", "Docker", "Go"],
   },
 ];
 

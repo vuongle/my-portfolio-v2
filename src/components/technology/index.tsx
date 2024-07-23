@@ -2,6 +2,7 @@ import {RiReactjsLine,RiFlutterLine} from 'react-icons/ri'
 import {FaNodeJs,FaAngular,FaAws,FaJenkins,FaGithub,FaDocker} from 'react-icons/fa'
 import {SiMongodb,SiMysql,SiJira,SiIonic} from 'react-icons/si'
 import { TbBrandReactNative } from "react-icons/tb"
+import { BiLogoGoLang } from "react-icons/bi";
 import {motion} from 'framer-motion'
 
 export default function Technology() {
@@ -17,6 +18,10 @@ export default function Technology() {
             initial={{opacity:0,y:150}}
             transition={{duration:0.75}}
         className="flex flex-wrap items-center justify-center gap-4">
+            <motion.div 
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <BiLogoGoLang className='text-4xl text-white' />
+            </motion.div>
             <motion.div 
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaNodeJs className='text-4xl text-green-500' />
